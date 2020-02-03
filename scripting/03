@@ -1,0 +1,4 @@
+#! /bin/bash
+
+apt-get update >> /var/log/update_sc.log
+apt-get upgrade >> /var/log/update_sc.log
